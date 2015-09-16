@@ -11,39 +11,78 @@ article, aside, footer, header, main, nav, section {
 	
 }
 
+main {
+	width: auto;
+	float: left;
+	margin-bottom: 10px;
+
+}
+
 header {
 	text-align: center;
+
 }
 .banner {
-	background-color: #000000;
+	background-color: #0aafff;
 	color: white;
-	padding: 10px 20px;
+	padding: 100px 20px;
+	border-radius: 0px;
+	margin-top: 0px;
 }
 
 .content {
 	text-align: center;
 }
 body {
-	width: 960px;
+	width: auto;
 	margin-left: auto;
 	margin-right: auto;
-	background-image: url("images/background1.jpg");
+	background-color: #0aafff;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 15px;
 }
-
+ 
 nav{
+	position: relative;
+	z-index: -1px;
 	background-color: #20416c;
 	padding: 5px;
 	margin-top: 1px;
+	border-radius: 0px;
 
 }
+
+
+.dropMenu {
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	z-index: 100;
+	text-align: left;
+	width: 125px;
+	background-color: black;
+	opacity: 0.95;
+	border-radius: 7px;
+	padding: 5px;
+	box-shadow: 7px 7px 3px #888888;
+	border-top: 1px solid white;
+}
+
+.dropMenu li:hover{
+	padding: 3px;
+	background-color: gray;
+	text-align: center;
+	border-radius: 7px;
+}
+
+
 
 li a {
 	color: white;
 }
 
 li {
+	color: white;
 	display: inline;
 	margin-left: 15px;
 	margin-right: 15px;
@@ -52,31 +91,38 @@ li {
 	font-weight: bold;
 }
 
+
+.blogTitle {
+	padding: 10px;
+	text-indent: 20px;
+	background-color: white;
+	border-radius: 0px;
+
+}
+
 section {
 	background-color: #bbbbbb;
 	margin-top: 10px;
 	padding: 5px;
+	border-radius: 0px;
 }
 
 article {
 	background-color: white;
 	margin-top: 5px;
 	padding: 5px;
+	border-radius: 0px;
 }
 
-main {
-	width: 640px;
-	float: left;
-	margin-bottom: 10px;
-	
-}
+
 
 aside {
 	background-color: #bbbbbb;
-	width: 270px;
+	width: 220px;
 	float: right;
 	padding: 20px;
-	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 7px;
 }
 
 footer {
@@ -84,10 +130,20 @@ footer {
 	background-color: #20416c;
 	color: white;
 	padding: 5px 20px;
+	border-radius: 0px;
 }
 
-img {
-	margin-left: 215px;
-	
+
+.exampleImage {
+	width: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	max-width: 50%;
+	border-radius: 15px;
+
 }
 
+.exampleImage:hover{
+	opacity: 0.85;
+}

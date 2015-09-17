@@ -15,13 +15,12 @@ main {
 	width: auto;
 	float: left;
 	margin-bottom: 10px;
-
 }
 
 header {
 	text-align: center;
-
 }
+
 .banner {
 	background-color: #0aafff;
 	color: white;
@@ -33,6 +32,7 @@ header {
 .content {
 	text-align: center;
 }
+
 body {
 	width: auto;
 	margin-left: auto;
@@ -49,9 +49,7 @@ nav{
 	padding: 5px;
 	margin-top: 1px;
 	border-radius: 0px;
-
 }
-
 
 .dropMenu {
 	margin-left: auto;
@@ -60,8 +58,8 @@ nav{
 	z-index: 100;
 	text-align: left;
 	width: 125px;
-	background-color: black;
-	opacity: 0.95;
+	background-color: #0aafff;
+	opacity: 0.99;
 	border-radius: 7px;
 	padding: 5px;
 	box-shadow: 7px 7px 3px #888888;
@@ -74,8 +72,6 @@ nav{
 	text-align: center;
 	border-radius: 7px;
 }
-
-
 
 li a {
 	color: white;
@@ -91,13 +87,11 @@ li {
 	font-weight: bold;
 }
 
-
 .blogTitle {
 	padding: 10px;
 	text-indent: 20px;
 	background-color: white;
 	border-radius: 0px;
-
 }
 
 section {
@@ -113,8 +107,6 @@ article {
 	padding: 5px;
 	border-radius: 0px;
 }
-
-
 
 aside {
 	background-color: #bbbbbb;
@@ -133,7 +125,6 @@ footer {
 	border-radius: 0px;
 }
 
-
 .exampleImage {
 	width: auto;
 	display: block;
@@ -141,7 +132,6 @@ footer {
     margin-right: auto;
 	max-width: 50%;
 	border-radius: 15px;
-
 }
 
 .exampleImage:hover{
